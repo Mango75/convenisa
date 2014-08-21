@@ -1,0 +1,46 @@
+/***************
+colors
+***************/
+/*************
+overall
+*************/
+body {
+  background-coiinlor: white;
+}
+
+header {
+  height: 64px;
+  border-bottom: 16px solid #007d48;
+}
+
+/*************
+typo
+*************/
+/*fonts*/
+/*headings*/
+h1, h2, h3, h4, h5, h6 {
+  color: #007d48;
+  text-transform: uppercase;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+}
+
+/*paragraph*/
+p {
+  font-family: "Abel",sans-serif;
+  color: #666666;
+  font-size: 0.8em;
+}
+
+/*************
+photo section
+*************/
+.side-photos a {
+  margin-bottom: 10px;
+}
+.side-photos p {
+  background-color: #007d48;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}

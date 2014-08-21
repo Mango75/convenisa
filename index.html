@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="foundation/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="foundation/css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="_/components/foundation/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="_/components/foundation/css/foundation.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Abel:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="_/css/mystyle.min.css">
     <script src="foundation/js/vendor/modernizr.js"></script>
   </head>
   <body>
     <div class="container">
-
+      <header>
+      </header>
+      <div class="main">
+        <div class="row">
+          <div class="photo large-12 medium-12 small-12 columns">
+            <div class="main-photo large-8 medium-8 small-6 columns">
+              <img src="img/testpic.jpg" alt="Bild på fasad">
+            </div>
+            <div class="side-photos large-4 medium-4 small-6 columns">
+              <a href="revision.html">
+                <img src="img/testpic2.jpg" alt="Bild på fasad">
+                <p>Revision</p>
+              </a>
+              <a href="skatt.html">
+                <img src="img/testpic3.jpg" alt="Bild på fasad">
+                <p>Skatterådgivning</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <article class="large-8 medium-8 small-12 columns">
+            <h1>Main column</h1>
+          </article>
+          <aside class="large-4 medium-4 columns">
+            <h2>Small column</h2>
+          </aside>
+        </div>  
+      </div>
+      <footer>
+      </footer>
     </div>
-    <script src="../foundation/js/vendor/jquery.js"></script>
-    <script src="../foundation/js/foundation.min.js"></script>
+    <script src="_/components/foundation/js/vendor/jquery.js"></script>
+    <script src="_/components/foundation/js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>

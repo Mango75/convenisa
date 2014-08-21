@@ -1,3 +1,37 @@
+/***************
+colors
+***************/
+$white: #fff;
+$darkgreen: rgba(0, 125, 72, 1); 
+$gray:  #666;
+
+/*************
+overall
+*************/
+
 body{
-background-color: red;
+background-color: $white;
+}
+
+
+/*************
+typo
+*************/
+
+/*fonts*/
+
+
+
+/*headings*/
+
+h1,h2,h3,h4,h5,h6{
+	color: $darkgreen;
+	text-transform: uppercase;
+	font-family: "Abel";
+	font-weight: 400;
+}
+
+/*paragraph*/
+p{
+
 }
